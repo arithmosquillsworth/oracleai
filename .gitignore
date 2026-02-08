@@ -1,0 +1,11 @@
+.env
+.env.local
+node_modules/
+*.log
+data/*/state.json
+data/*/outcomes.jsonl
+data/logs/*.jsonl
+.DS_Store
+*.swp
+*.swo
+*~

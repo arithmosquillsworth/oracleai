@@ -1,0 +1,22 @@
+{
+  "name": "oracleai",
+  "version": "1.0.0",
+  "description": "Specialized prediction market agents by category",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test tests/**/*.test.js",
+    "crypto": "node src/agents/crypto-oracle/index.js",
+    "sports": "node src/agents/sports-bot/index.js",
+    "politics": "node src/agents/politics-ai/index.js",
+    "popculture": "node src/agents/pop-culture/index.js"
+  },
+  "keywords": ["prediction-markets", "ai-agents", "polymarket", "kalshi", "crypto"],
+  "author": "Arithmos Quillsworth",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
